@@ -1,3 +1,19 @@
+//package path.path.path
+
+// simply register saveDefaultConfig() in your onEnable()
+// to reference simply create a constructor to your main class and use plugin.getConfig().(option)
+
+// @author voltration
+// MIT License
+
+import gg.hecate.xyz.XYZ
+import org.bukkit.configuration.file.FileConfiguration
+import org.bukkit.configuration.file.YamlConfiguration
+import java.io.File
+import java.io.IOException
+import java.io.InputStreamReader
+import java.util.logging.Level
+
 object Configuration {
   
     private var dataConfig: FileConfiguration? = null
