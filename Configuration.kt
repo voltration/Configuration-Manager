@@ -17,7 +17,7 @@ import java.util.logging.Level
 object Configuration {
   
   
-    //private var plugin: [mainclass] = null <-- CHANGE THIS
+    //private var plugin: [mainclass]? = null <-- CHANGE THIS
     private var dataConfig: FileConfiguration? = null
     private var configFile: File? = null
 
